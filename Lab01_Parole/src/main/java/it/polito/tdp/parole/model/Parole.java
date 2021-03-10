@@ -25,4 +25,9 @@ public class Parole {
 		this.lista.clear();
 	}
 
+	public void removeParola(String s) {
+		this.lista.remove(s);
+		
+	}
+
 }
