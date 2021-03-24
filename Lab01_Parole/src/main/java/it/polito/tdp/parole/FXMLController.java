@@ -71,11 +71,11 @@ public class FXMLController {
     	double start = System.nanoTime();
     	this.elenco.removeParola(s);
     	double stop = System.nanoTime();
-    	String str="";
+    	s ="";
     	for(String st : this.elenco.getElenco() ) {
-    		str =str+st+"\n";
+    		s = s + st + "\n";
     	}
-    	this.txtResult.setText(str);
+    	this.txtResult.setText(s);
     	this.txtTempi.appendText("[REMOVE]: " + (stop - start)/1e9 + " seconds\n");
     }
     
